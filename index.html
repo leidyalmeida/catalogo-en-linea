@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Catálogo en Línea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TechStore 🚀</h1>
+        <p>Tu tienda de tecnología en línea con actualización automática</p>
+    </header>
+
+    <main class="container">
+        <!-- SECCIÓN DE FILTROS -->
+        <aside class="filters">
+            <h3>Filtrar Productos</h3>
+            
+            <div class="filter-group">
+                <label for="search-input">Buscar:</label>
+                <input type="text" id="search-input" placeholder="Nombre de producto...">
+            </div>
+
+            <div class="filter-group">
+                <label for="brand-filter">Marca:</label>
+                <select id="brand-filter">
+                    <option value="">Todas las marcas</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="category-filter">Categoría:</label>
+                <select id="category-filter">
+                    <option value="">Todas las categorías</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="price-filter">Precio máximo: $<span id="price-val">2000</span></label>
+                <input type="range" id="price-filter" min="0" max="2000" value="2000" step="50">
+            </div>
+
+            <button id="reset-filters">Limpiar Filtros</button>
+        </aside>
+
+        <!-- SECCIÓN DE CATÁLOGO -->
+        <section class="catalog-section">
+            <div id="product-grid" class="grid">
+                <!-- Los productos se cargarán dinámicamente con JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechStore - Despliegue Automatizado Continuo</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
