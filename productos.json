@@ -49,10 +49,10 @@
   },
   {
     "id": 7,
-    "nombre": "Monitor UltraWide 29\"",
+    "nombre": "Monitor UltraWide 34\"",
     "marca": "LG",
     "categoria": "Monitores",
-    "precio": 300,
+    "precio": 450,
     "imagen": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400"
   },
   {
@@ -60,7 +60,7 @@
     "nombre": "Teclado Mecánico RGB",
     "marca": "Logitech",
     "categoria": "Accesorios",
-    "precio": 120,
+    "precio": 130,
     "imagen": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400"
   },
   {
@@ -93,8 +93,9 @@
     "marca": "Epson",
     "categoria": "Impresión",
     "precio": 250,
-    "imagen": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400",
-    {
+    "imagen": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400"
+  },
+  {
     "id": 13,
     "nombre": "Cámara Mirrorless Alpha",
     "marca": "Sony",
@@ -109,6 +110,5 @@
     "categoria": "Drones",
     "precio": 799,
     "imagen": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=400"
-  }
   }
 ]
