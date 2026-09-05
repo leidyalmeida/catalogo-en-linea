@@ -93,6 +93,22 @@
     "marca": "Epson",
     "categoria": "Impresión",
     "precio": 250,
-    "imagen": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400"
+    "imagen": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400",
+    {
+    "id": 13,
+    "nombre": "Cámara Mirrorless Alpha",
+    "marca": "Sony",
+    "categoria": "Fotografía",
+    "precio": 1400,
+    "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400"
+  },
+  {
+    "id": 14,
+    "nombre": "Drone con Cámara 4K",
+    "marca": "DJI",
+    "categoria": "Drones",
+    "precio": 799,
+    "imagen": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=400"
+  }
   }
 ]
